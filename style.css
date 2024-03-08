@@ -1,0 +1,181 @@
+/* 全局樣式 */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5; /* 淺灰色背景 */
+    color: #333; /* 深灰色文字 */
+}
+
+/* 頭部導航欄 */
+header nav {
+    background-color: #333; /* 黑色導航欄 */
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+header nav a {
+    color: #ddd; /* 淺灰色連結 */
+    text-decoration: none;
+    margin: 0 10px;
+    transition: color 0.3s; /* 添加過渡效果 */
+}
+
+header nav a:hover {
+    color: #fff; /* 鼠標懸停時變為白色 */
+}
+
+/* 主內容區域 */
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff; /* 白色內容區域 */
+    box-shadow: 0 0 10px rgba(0,0,0,0.1); /* 淺灰色陰影 */
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+/* 首頁 */
+#home {
+    text-align: center;
+    padding: 80px 0;
+    background-color: #f0f0f0; /* 淺灰色背景 */
+    color: #666; /* 深灰色文字 */
+}
+
+#home a {
+    display: inline-block;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s; /* 添加過渡效果 */
+}
+
+#home a:hover {
+    background-color: #666; /* 鼠標懸停時變深灰色 */
+}
+
+/* 關於我 */
+#about {
+    line-height: 1.6;
+}
+
+/* 技能 */
+.skill-bar {
+    background-color: #ddd; /* 淺灰色背景 */
+    height: 20px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    box-shadow: inset 0 0 5px rgba(0,0,0,0.1); /* 淺灰色內陰影 */
+}
+
+.skill-level {
+    background-color: #ff8c00; /* 橘色進度條 */
+    height: 20px;
+    border-radius: 10px;
+    text-align: right;
+    color: #fff;
+    padding-right: 10px;
+    box-shadow: inset 0 0 5px rgba(0,0,0,0.2); /* 深橘色內陰影 */
+}
+
+/* 作品集 */
+.project {
+    margin-bottom: 40px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1); /* 淺灰色陰影 */
+    padding: 20px;
+    background-color: #f9f9f9; /* 淺灰色背景 */
+    border-radius: 5px;
+    transition: box-shadow 0.3s; /* 添加過渡效果 */
+}
+
+.project:hover {
+    box-shadow: 0 0 20px rgba(0,0,0,0.2); /* 鼠標懸停時加深陰影 */
+}
+
+.project img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.view-more {
+    display: inline-block;
+    background-color: #008000; /* 綠色按鈕 */
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin-top: 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s; /* 添加過渡效果 */
+}
+
+.view-more:hover {
+    background-color: #006600; /* 鼠標懸停時變深綠色 */
+}
+
+/* 工作經歷 */
+.job {
+    margin-bottom: 20px;
+    border-left: 4px solid #333;
+    padding-left: 10px;
+}
+
+/* 聯繫我 */
+form input, form textarea {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ddd; /* 淺灰色邊框 */
+    border-radius: 5px;
+    transition: border-color 0.3s; /* 添加過渡效果 */
+}
+
+form input:focus, form textarea:focus {
+    border-color: #ff8c00; /* 獲得焦點時變橘色邊框 */
+    outline: none; /* 移除輪廓線 */
+}
+
+form button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s; /* 添加過渡效果 */
+}
+
+form button:hover {
+    background-color: #666; /* 鼠標懸停時變深灰色 */
+}
+
+.contact-info {
+    margin-top: 20px;
+}
+
+.contact-info p {
+    margin: 5px 0;
+}
+
+.contact-info i {
+    margin-right: 10px;
+    color: #ff8c00; /* 橘色圖標 */
+}
+
+/* 頁腳 */
+footer {
+    background-color: #333;
+    color: #ddd; /* 淺灰色文字 */
+    text-align: center;
+    padding: 10px;
+}

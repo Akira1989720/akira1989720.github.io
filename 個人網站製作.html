@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>個人履歷</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="#home">首頁</a>
+            <a href="#about">關於我</a>
+            <a href="#skills">技能</a>
+            <a href="#portfolio">作品集</a>
+            <a href="#experience">工作經歷</a>
+            <a href="#contact">聯繫我</a>
+        </nav>
+    </header>
+    
+    <main>
+        <section id="home">
+            <h1>您的名字</h1>
+            <p>簡短的自我介紹...</p>
+            <a href="#about">了解更多</a>
+        </section>
+
+        <section id="about">
+            <h2>關於我</h2>
+            <p>詳細的自我介紹、教育背景和專業培訓...</p>
+        </section>
+
+        <section id="skills">
+            <h2>技能</h2>
+            <ul>
+                <li>
+                    <h3>技能1</h3>
+                    <div class="skill-bar">
+                        <div class="skill-level" style="width: 80%;">80%</div>
+                    </div>
+                    <p>技能詳細說明...</p>
+                </li>
+                <!-- 添加更多技能 -->
+            </ul>
+        </section>
+
+        <section id="portfolio">
+            <h2>作品集</h2>
+            <div class="project">
+                <img src="project1.jpg" alt="Project 1">
+                <h3>項目1</h3>
+                <p>項目詳細介紹...</p>
+                <a href="#" class="view-more">查看更多</a>
+            </div>
+            <!-- 添加更多作品項目 -->
+        </section>
+
+        <section id="experience">
+            <h2>工作經歷</h2>
+            <div class="job">
+                <h3>職位名稱 @ 公司名稱</h3>
+                <p>工作年份</p>
+                <p>工作職責和主要成就...</p>
+            </div>
+            <!-- 添加更多工作經歷 -->
+        </section>
+
+        <section id="contact">
+            <h2>聯繫我</h2>
+            <form>
+                <input type="text" placeholder="您的名字" required>
+                <input type="email" placeholder="您的電子郵件" required>
+                <textarea placeholder="您的留言"></textarea>
+                <button type="submit">提交</button>
+            </form>
+            <div class="contact-info">
+                <p><i class="fa fa-envelope"></i> 您的電子郵件</p>
+                <p><i class="fa fa-phone"></i> 您的電話號碼</p>
+                <p><i class="fa fa-globe"></i> 您的個人網站</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 您的名字</p>
+    </footer>
+
+    <script src="https://kit.fontawesome.com/yourcode.js"></script>
+</body>
+</html>
